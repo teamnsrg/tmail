@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	cgCli "github.com/codegangsta/cli"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 )
 
 var Queue = cgCli.Command{

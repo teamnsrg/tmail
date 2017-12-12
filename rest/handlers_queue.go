@@ -8,7 +8,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/julienschmidt/httprouter"
 	"github.com/nbio/httpcontext"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 )
 
 // usersGetAll return all users

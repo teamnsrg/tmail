@@ -12,7 +12,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/toorop/tmail/message"
+	"github.com/teamnsrg/tmail/message"
 )
 
 // deliverLocal handle local delivery

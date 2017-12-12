@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	cgCli "github.com/codegangsta/cli"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 )
 
 var alias = cgCli.Command{

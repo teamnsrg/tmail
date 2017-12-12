@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 
-	"github.com/toorop/tmail/core"
+	"github.com/teamnsrg/tmail/core"
 )
 
 // httpWriteJson send a json response

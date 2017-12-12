@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	cgCli "github.com/codegangsta/cli"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 )
 
 // Rcpthost represents commands for dealing with rcpthosts

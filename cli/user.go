@@ -2,7 +2,7 @@ package cli
 
 import (
 	cgCli "github.com/codegangsta/cli"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 )
 
 var user = cgCli.Command{

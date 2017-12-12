@@ -2,7 +2,7 @@ package cli
 
 import (
 	"fmt"
-	"github.com/toorop/tmail/api"
+	"github.com/teamnsrg/tmail/api"
 	cgCli "github.com/codegangsta/cli"
 	"os"
 	"strconv"
