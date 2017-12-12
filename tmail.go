@@ -54,11 +54,11 @@ func init() {
 		for {
 			fmt.Printf("Database 'driver: %s, source: %s' misses some tables.\r\nShould i create them ? (y/n):", core.Cfg.GetDbDriver(), core.Cfg.GetDbSource())
 			r, _, _ = bufio.NewReader(os.Stdin).ReadLine()
-			if r[0] == 110 || r[0] == 121 {
+			if r[0] == 'n' || r[0] == 'y' {
 				break
 			}
 		}
-		if r[0] == 121 {
+		if r[0] == 'y' {
 			if err = core.InitDB(core.DB); err != nil {
 				log.Fatalln(err)
 			}
