@@ -25,6 +25,17 @@ type DkimConfig struct {
 	Headers  string
 }
 
+func DkimAddExisting(domain string, pubkey_b64 string, privkey_b64 string) (error) {
+    d := DkimConfig{
+		Domain   : domain,
+		PubKey   : pubkey_b64,
+		PrivKey  : privkey_b64,
+	    Selector : strconv.FormatInt(time.Now().Unix(), 10), //This is what is expected.
+		Headers  : "",
+	}
+	return DB.Save(d).Error
+}
+
 // DkimEnable enabled DKIM on domain
 func DkimEnable(domain string) (dkc *DkimConfig, err error) {
 	domain = strings.ToLower(strings.TrimSpace(domain))
