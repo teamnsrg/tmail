@@ -33,7 +33,7 @@ func DkimAddExisting(domain string, pubkey_b64 string, privkey_b64 string) (erro
 	    Selector : strconv.FormatInt(time.Now().Unix(), 10), //This is what is expected.
 		Headers  : "",
 	}
-	return DB.Save(d).Error
+	return DB.Save(&d).Error
 }
 
 // DkimEnable enabled DKIM on domain
