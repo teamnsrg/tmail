@@ -3,7 +3,7 @@ package cli
 import (
 	"strings"
 
-	cgCli "github.com/codegangsta/cli"
+	cgCli "github.com/urfave/cli"
 	"github.com/teamnsrg/tmail/api"
 )
 

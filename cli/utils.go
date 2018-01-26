@@ -1,7 +1,7 @@
 package cli
 
 import (
-	cgCli "github.com/codegangsta/cli"
+	cgCli "github.com/urfave/cli"
 	"os"
 )
 

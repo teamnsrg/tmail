@@ -4,7 +4,7 @@ package cli
 import (
 	"fmt"
 	"github.com/teamnsrg/tmail/api"
-	cgCli "github.com/codegangsta/cli"
+	cgCli "github.com/urfave/cli"
 )
 
 var Mailbox = cgCli.Command{

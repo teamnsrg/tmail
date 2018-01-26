@@ -16,7 +16,7 @@ import (
 
 	//"github.com/bitly/nsq/nsqd"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	"github.com/nsqio/nsq/nsqd"
 
 	tcli "github.com/teamnsrg/tmail/cli"
